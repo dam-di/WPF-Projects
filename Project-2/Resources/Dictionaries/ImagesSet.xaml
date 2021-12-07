@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <!--Estos recursos son para usar como background--> 
+    <ImageBrush x:Key="fondoAzulBackGround"   ImageSource="../Images/fondoAzul.jpg"/>
+    <ImageBrush x:Key="fondoVerdeBackGround"  ImageSource="../Images/fondoVerde.jpg"/>
+    <ImageBrush x:Key="fondoCiudadBackGround" ImageSource="../Images/fondoCiudad.jpg"/>
+    <ImageBrush x:Key="fondoPuebloBackGround" ImageSource="../Images/fondoPueblo.jpg"/>
+
+    <ImageBrush x:Key="btnNormal" ImageSource="../Images/btnNormal.png" />
+    <ImageBrush x:Key="btnEncima" ImageSource="../Images/btnEncima.png" />
+    <ImageBrush x:Key="btnClick" ImageSource="../Images/btnClick.png" />
+
+
+    <!--Estos recursos son para usar como source para una Imagen-->
+    <BitmapImage x:Key="fondoAzulSource"      UriSource="../Images/fondoAzul.jpg"/>
+    <BitmapImage x:Key="fondoVerdeSource" UriSource="../Images/fondoVerde.jpg"/>
+    <BitmapImage x:Key="fondoCiudadSource"    UriSource="../Images/fondoCiudad.jpg"/>
+    <BitmapImage x:Key="fondoPuebloSource"     UriSource="../Images/fondoPueblo.jpg"/>
+
+</ResourceDictionary>
